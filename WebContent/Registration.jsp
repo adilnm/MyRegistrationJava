@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registration</title>
 </head>
 <body>
-
+	Please enter your name:<br><br/>
+	
+	<form action="MyRegistrationServlet">
+	Name: <input type="text" name="name"><br><br/>
+	Location: <input type="text" name="location"><br><br/>
+	
+	<input type="submit" value="Submit">
+	</form>
 </body>
 </html>
