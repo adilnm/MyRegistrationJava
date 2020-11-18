@@ -11,6 +11,8 @@
 	
 	<form action="MyRegistrationServlet">
 	Name: <input type="text" name="name"><br><br/>
+	Age: <input type="text" name="age"><br><br/>
+	School: <input type="text" name="school"><br><br/>
 	Location: <input type="text" name="location"><br><br/>
 	
 	<input type="submit" value="Submit">

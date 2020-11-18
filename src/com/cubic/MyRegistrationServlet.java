@@ -18,9 +18,11 @@ public class MyRegistrationServlet extends HttpServlet {
 		
 		String namevalue=request.getParameter("name");
 		String locationvalue=request.getParameter("location");
+		String agevalue=request.getParameter("age");
+		String schoolvalue=request.getParameter("school");
 		PrintWriter pw=response.getWriter();
 		
-		pw.println("Hello Mr. "+namevalue+" from "+locationvalue);
+		pw.println("Hello my name is "+namevalue+" I am "+ agevalue+" from "+locationvalue+" I go to "+schoolvalue);
 			
 				
 	}
